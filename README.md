@@ -1,4 +1,4 @@
-# weather API USing HTML, CSS and Javascript
+# Weather API USing HTML, CSS and Javascript
 
 This is the code for weather forecast website that is coded using HTML,CSS, and Javascript.
 It is fully responsive and supported into all devices.
