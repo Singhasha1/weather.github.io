@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="main.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section id="main">
+     <img src="images/bg1.jpg" class="main-bg">
+
+        <div class="main-container">
+            <div class="location">
+            <input type="text" id="input-box" placeholder="Enter City Name">
+            <button id="btn" >Search</button>
+            </div>
+             
+            <div class="inner-container">
+                <div class="left-container">
+                    <p class="cityname"></p>
+                    <div class="box">
+
+                    <p class="temp">
+                    <p class="feels"></p>
+                    <p class="des"></p>
+                        </div>
+
+                        <table class="weather-tbl">
+                            <tr>
+
+                                    <th>Humidity</th>
+                                    <th>wind speed</th>
+                                
+                            </tr>
+                            <tr>
+                                    <td class="humid"></td>
+                                    <td class="wind"> </td>
+                                
+                            </tr>
+                        </table>
+                </div>
+
+                <div class="right-container">
+                   <h2>More Details</h2>
+                   <img  class="cloud-pic">
+                   <h4 class="country"></h4>
+                   <h4 class="max-temp"></h4>
+                   <h4 class="min-temp"></h4>
+                   <h4 class="visibility"></h4>
+                   <h4 class="sunrise"></h4>
+                   <h4 class="sunset"></h4>
+                   
+            </div>
+        </div>
+    </section>
+
+    <script src="api.js"></script>
+</body>
+</html>
