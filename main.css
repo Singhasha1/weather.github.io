@@ -9,7 +9,6 @@
     width: 100%;
     height: auto;
     position: relative;
-    animation: slider 20s infinite linear;
     background-image: url(images/bg1.jpg);
 
 }
@@ -241,7 +240,7 @@
     width: 95%;
     height: 50vh;
     margin-top: 15%;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 .left-container{
@@ -370,7 +369,6 @@
     
     .left-container{
         height: 55%;
-          
     }
     
     .right-container{
