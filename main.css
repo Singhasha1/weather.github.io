@@ -339,7 +339,7 @@
     .main-container{
         position: absolute;
         width: 80%;
-        height: 70vh;
+        height: 75vh;
         margin-top: 28%;  
         margin-left: 10%;  
     }
@@ -365,7 +365,7 @@
         width: 95%;
         height: 50vh;
         margin-top: 15%;
-        margin-left: 2%;
+        margin-left: 1%;
     }
     
     .left-container{
@@ -402,7 +402,7 @@
     }
     
     .des{
-        font-size: 14x; 
+        font-size: 13x; 
     }
     
     .weather-tbl{
